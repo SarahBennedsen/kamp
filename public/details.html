@@ -12,7 +12,8 @@
         background-color: black;
         background-size: auto;
         background-position: top;
-        padding: 2rem;
+        padding: 0;
+        margin: 0;
     }
     .maindiv {
         color: rgb(254, 245, 154);
@@ -22,7 +23,7 @@
         background-color: rgba(0, 0, 0, .7);
         border: 5px solid;
         border-radius: 20px;
-        margin: 0 auto;
+        margin: 2rem auto;
         font-family: 'Nixie One', cursive;
     }
     h1 {
@@ -31,7 +32,23 @@
         line-height: 1.2em;
         text-align: center;
     }
+    .navlink {
+        text-align: center;
+        background-color: black;
+    }
+    .navlink a {
+        color: lightcyan;
+    } 
+    .navlink li {
+        display: inline-block;
+        list-style: none;
+        margin: 0 5px;
+    }
+    ul {
+        padding: 8px;
+        margin: 0;
 
+    }
 
 </style>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -46,11 +63,23 @@
 
 <body>
 
+<nav class="navlink">
+    <ul>
+        <li><a href="/mainpage.html">Home</a></li>
+        <li><a href="/details.html">Details</a></li>
+        <li><a href="/accommodations.html">Accommodations</a></li>
+        <li><a href="/registry.html">Registry</a></li>
+    </ul>
+</nav>
 
 <div class="maindiv">
     <h1>
-        <span>Registry</span>
+        <span>Details</span>
     </h1>
+    <h2>Location</h2>
+    <p>Kamp Kohut, Oxford, ME</p>
+
+    <h2>
     <p>Your presence is more than enough of a gift for us, and we understand that travel and accommodations already present a considerable investment in attending our special day.</p>
 
     <p>With that said, if you're still feeling generous, instead of gifts we ask that you contribute to one of our charities of choice.</p>
